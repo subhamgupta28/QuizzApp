@@ -1,0 +1,14 @@
+POST http://localhost:8080/question/addQuestion
+Content-Type: application/json
+
+{
+  "id": 3,
+  "category": "Java",
+  "difficultyLevel": "Easy",
+  "option1": "10",
+  "option2": "127",
+  "option3": "4",
+  "option4": "6",
+  "questionTitle": "What is value for byte in java?",
+  "correctAnswer": "127"
+}
